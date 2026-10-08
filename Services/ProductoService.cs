@@ -1,6 +1,6 @@
 namespace StockFacil.Services
 {
-    public class VentaService
+    public class ProductoService
     {
         public bool ValidarProducto(string nombre, decimal precio)
         {
