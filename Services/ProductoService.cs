@@ -1,6 +1,6 @@
 namespace StockFacil.Services
 {
-    public class VentaService
+    public class ProductoService
     {
         public bool ValidarProducto(string nombre, decimal precio)
         {
@@ -15,6 +15,11 @@ namespace StockFacil.Services
             }
 
             return true;
+        }
+
+        public int ActualizarStock(int stockActual, int cantidad)
+        {
+            return stockActual + cantidad;
         }
     }
 }
