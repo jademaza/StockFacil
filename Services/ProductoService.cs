@@ -16,5 +16,10 @@ namespace StockFacil.Services
 
             return true;
         }
+
+        public int ActualizarStock(int stockActual, int cantidad)
+        {
+            return stockActual + cantidad;
+        }
     }
 }
